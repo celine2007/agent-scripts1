@@ -13,9 +13,11 @@ fi
 if [ 'nproc' -eq 1 ] 
 then 
 	echo "This server is very small"
-	exit 2
-fi
+fi	exit 2
 
 # checking memory
 free -m
-exit 99
+free -m
+
+exit 0 
+
